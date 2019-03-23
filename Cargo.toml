@@ -6,8 +6,9 @@ authors = ["Unbit s.a.s"]
 license = "MIT"
 repository = "https://github.com/unbit/uwsgi-rust"
 description = """
-uWSGI and Rust integration plugin. 
+uWSGI and Rust integration plugin.
 """
+edition = "2018"
 
 [lib]
 crate-type = ["staticlib"]
@@ -15,5 +16,5 @@ name = "uwsgi_rust"
 path = "plugin.rs"
 
 [dependencies]
-libc = "0.1"
-dylib = "0.0.1"
+libc = "0.2.50"
+dylib = "0.0.3"

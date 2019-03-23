@@ -6,7 +6,7 @@ authors = ["Unbit s.a.s"]
 license = "MIT"
 repository = "https://github.com/unbit/uwsgi-rust"
 description = """
-An example app to be deployed on uwsgi-rust. 
+An example app to be deployed on uwsgi-rust.
 """
 
 [lib]
@@ -15,5 +15,5 @@ name = "rust_uwsgi_app"
 path = "app.rs"
 
 [dependencies]
-libc = "0.1"
-dylib = "0.0.1"
+libc = "0.2.50"
+dylib = "0.0.2"
